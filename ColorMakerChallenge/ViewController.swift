@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         let red = CGFloat(self.redColor.value)
         let green = CGFloat(self.greenColor.value)
         let blue = CGFloat(self.blueColor.value)
-        colorView.backgroundColor = UIColor(red: red, green: green, blue: blue, alpha: 1)
+        colorView.backgroundColor = UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)
         
     }
 

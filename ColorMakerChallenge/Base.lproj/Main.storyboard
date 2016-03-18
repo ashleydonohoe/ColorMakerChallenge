@@ -49,19 +49,16 @@
                                     <action selector="changeColorViewColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="7hc-1q-ib1"/>
                                 </connections>
                             </slider>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XVl-ke-9SD">
-                                <rect key="frame" x="127" y="366" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Sce-H4-xiW">
                                 <rect key="frame" x="225" y="210" width="118" height="31"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="168" y="198" width="118.5" height="31"/>
-                                </variation>
                                 <connections>
                                     <action selector="changeColorViewColor:" destination="BYZ-38-t0r" eventType="valueChanged" id="nyL-be-Nx5"/>
                                 </connections>
                             </slider>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XVl-ke-9SD">
+                                <rect key="frame" x="127" y="366" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
